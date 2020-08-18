@@ -1,0 +1,7 @@
+:root {
+    --status-bar: rgba(0, 0, 0, 0.1);
+    --main-light: #44dfdf;
+    --main-normal: #44afaf;
+    --main-dark: #1e5f5f;
+    --notify-color: #6257ff;
+}

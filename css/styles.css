@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* Componets */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
+/* Screens */
+@import "screens/login.css";
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+}

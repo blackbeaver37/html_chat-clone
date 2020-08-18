@@ -1,0 +1,45 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--main-light);
+    padding: 20px 35px;
+    box-sizing: border-box;
+    border-top: 1px solid #0000004d;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link {
+    position: relative;
+    color: aliceblue;
+}
+.nav__link:visited {
+    color: aliceblue;
+}
+
+.nav__notification {
+    background-color: var(--notify-color);
+    font-size: 10px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+.notify--chat {
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+    padding-right: 1.5px;
+}
+.notify--etc {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 22px;
+    bottom: 18px;
+}

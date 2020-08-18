@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to UnsTalk</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span class="clock status-bar__clock">00:00</span>
+            </div>
+            <div class="status-bar__column">
+                <span>99%</span>
+                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <div>
+            <header class="welcome-header">
+                <h1 class="welcome-header__title">Welcome to UnsTalk</h1>
+                <p class="welcome-header__text">If you have UnsTalk Account, log in with your email or phone number.</p>
+            </header>
+
+            <form action="friends.html" method="GET" class="login-form" autocomplete="off">
+                <input class="login-form__input" name="id" type="text" placeholder="Email or Phone number" required />
+                <input class="login-form__input" name="pw" type="password" placeholder="Password" required />
+                <input class="login-form__btn" type="submit" value="Log In" />
+            </form>
+            <form action="registration.html" method="GET" class="login-form">
+                <input class="login-form__btn" type="submit" value="Sign Up" />
+                <a class="login-form__a" href="findaccount.html">Find UnsTalk Account or Password</a>
+            </form>
+        </div>
+        <script src="clock.js"></script>
+        <script src="https://kit.fontawesome.com/e863981bbc.js" crossorigin="anonymous"></script>
+    </body>
+</html>
